@@ -8,10 +8,11 @@ function f() {
     var study = document.getElementById("study").value;
     var bio = document.getElementById("bio").value;
     var fplan = document.getElementById("fplan").value;
+    var dob = document.getElementById("dob").value;
 
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "text/plain");
-    var raw = `{"name":"` + name + `","no":"` + no + `","address":"` + address + `","city":"` + city +
+    var raw = `{"name":"` + name + `","no":"` + no + `","dob":"` + dob + `","address":"` + address + `","city":"` + city +
         `","state":"` + state + `","landmark":"` + landmark + `","study":"` + study + `","bio":"` + bio + `","fplan":"` + fplan + `"}`;
 
     var requestOptions = {
