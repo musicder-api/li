@@ -7,11 +7,13 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
     font-family: 'Kumbh Sans', sans-serif;
     background-image: url(https://images.unsplash.com/photo-1568035315233-41f17f324cb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
     background-position: center;
     background-size: cover;
-    height: 1500px;
+    height: 1470px;
 }
 
 .login {
@@ -20,7 +22,7 @@ body {
     align-items: center;
     margin: 0x 0;
     width: 380px;
-    height: 1500px;
+    height: 1470px;
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
